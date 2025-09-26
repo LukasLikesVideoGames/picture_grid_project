@@ -1,0 +1,134 @@
+body{
+    margin: 0 auto;
+    font: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: start center;
+}
+nav{
+    text-align: center;
+    height: 90px;
+    background-color: hotpink;
+    padding: 1%;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    text-align: center;
+    padding: 30px;
+}
+nav a{
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    color: darkred;
+}
+.bottom{
+    color: darkred;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: -2.25rem 0 1.5rem 0;
+}
+.wrapper{
+    border: 25px solid gray;
+    display: grid;
+}
+.grid{
+    justify-content: start;
+    gap: 8px;
+    display: grid;
+    grid-template-areas: 
+    "img21 img21 img21 img21 img1"
+    "img21 img21 img21 img21 img2"
+    "img21 img21 img21 img21 img3"
+    "img21 img21 img21 img21 img3"
+    "img4 img4 img5 img6 img7"
+    "img8 img9 img9 img10 img11"
+    "img8 img13 img14 img14 img15"
+    "img12 img13 img16 img17 img18"
+    "img19 img20 img20 . .";
+}
+.image1{
+    grid-area: img1;
+}
+.image2{
+    grid-area: img2;
+}
+.image3{
+    grid-area: img3;
+}
+.image4{
+    grid-area: img4;
+}
+.image5{
+    grid-area: img5;
+    margin-left: -0.5rem;
+}
+.image6{
+    grid-area: img6;
+    margin-left: -0.25rem;
+}
+.image7{
+    grid-area: img7;
+}
+.image8{
+    grid-area: img8;
+}
+.image9{
+    grid-area: img9;
+}
+.image10{
+    grid-area: img10;
+    margin-left: -0.2rem;
+}
+.image11{
+    grid-area: img11;
+    margin-top: -0.15rem;
+}
+.image12{
+    grid-area: img12;
+    margin-top: 4rem;
+}
+.image13{
+    grid-area: img13;
+    margin-top: -1.25rem;
+}
+.image14{
+    grid-area: img14;
+    margin-top: -1.25rem;
+}
+.image15{
+    grid-area: img15;
+    margin-top: -0.75rem;
+}
+.image16{
+    grid-area: img16;
+    margin-top: -1.75rem;
+}
+.image17{
+    grid-area: img17;
+    margin-top: -1.75rem;
+}
+.image18{
+    grid-area: img18;
+    margin-top: -1.75rem;
+}
+.image19{
+    grid-area: img19;
+}
+.image20{
+    grid-area: img20;
+}
+.image21{
+    grid-area: img21;
+}
